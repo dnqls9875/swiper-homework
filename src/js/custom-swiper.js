@@ -10,6 +10,7 @@ const swiper = new Swiper(".swiper", {
   loop: false,
   coverflowEffect: {
     rotate: 45,
+    slideShadows: false,
   },
   autoplay: {
     delay: 2000,

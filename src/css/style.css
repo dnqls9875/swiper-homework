@@ -1,10 +1,11 @@
 body {
   overflow: hidden;
+  margin: 0;
   width: 100vw;
   height: 100vh;
 }
-
 .section-wrapper {
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -12,14 +13,14 @@ body {
 .swiper {
   width: 100%;
   height: 100%;
-  padding: 50px 20px;
+  padding: 50px 0;
   overflow: visible;
 }
 
 .parallax-bg {
   position: absolute;
-  right: 0;
-  top: -50%;
+  right: -5%;
+  top: 0;
   width: 200%;
   height: 200%;
   background-image: url("https://images.unsplash.com/photo-1647892591711-f310c2a3ab7c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
